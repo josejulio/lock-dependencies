@@ -134,3 +134,11 @@ Each example will show the result of the command executed on the following `pack
   }
 }
 ```
+
+## Alternatives
+
+You might also check these more complete alternatives:
+
+- [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
+- [npm-check](https://www.npmjs.com/package/npm-check) 
+

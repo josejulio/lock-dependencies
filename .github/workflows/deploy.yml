@@ -3,6 +3,9 @@ name: Deploy
 on:
   push:
     branches: [ master ]
+    paths:
+      - 'src/**'
+      - '!src/**/__tests__'
 
 jobs:
   publish:
