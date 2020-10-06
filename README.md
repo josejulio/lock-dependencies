@@ -3,9 +3,8 @@ Lock your package.json dependencies and helps to upgrade them on demand.
 
 If you manually update your dependencies and lock them (i.e. you don't use semver tilde `~` or caret `^`) then this package is for you.
 
-This command line utility will take care of locking and updating on-demand, by default it updates all your dependencies 
-(also devDependencies and peerDependencies) to the last minor version of your current version. If you are on 4.y.z it 
-will upgrade the dep to the last y and z, but won't touch the 4. This behavior is configurable.
+This command line utility will take care of locking and updating on-demand, by default it locks all your dependencies 
+(also devDependencies and peerDependencies) to the version specified in the package.json.
 
 ## Usage
 
