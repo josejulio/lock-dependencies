@@ -1,11 +1,6 @@
 name: Deploy
 
-on:
-  push:
-    branches: [ main ]
-    paths:
-      - 'src/**'
-      - '!src/**/__tests__'
+on: [workflow_dispatch]
 
 jobs:
   publish:
